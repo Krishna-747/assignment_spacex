@@ -1,0 +1,50 @@
+
+.sidebar {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px 0 rgba(155, 155, 155, 0.1);
+    width: 20rem;
+    margin: 0 10px 10px 10px;
+    padding: 1rem 1rem 4rem 1rem;
+}
+
+.sidebar .sidebar_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar .sidebar_btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+    border-radius: 4px;
+    width: 6rem;
+}
+
+.sidebar .side_headers {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    border-bottom: 1px solid grey;
+}
+
+.sidebar .button_box {
+    width: 50%;
+}
+
+.sidebar .sidebar_btn_active {
+    background: #7cba01;
+}
+
+.sidebar .sidebar_btn_inactive {
+    background: #c5e09b;
+}
+
+@media screen and (max-width: 500px) { 
+    .sidebar {
+        width: 90%;
+    }
+  }

@@ -1,0 +1,41 @@
+.img_box {
+  display: flex;
+  background: #f2f2f2;
+  width: 22.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 20rem;
+  height: 22rem;
+}
+
+.details_box {
+  width: 22.5rem;
+}
+
+.details_box .label_text {
+  display: inline-block;
+  font-weight: 600;
+  color: black;
+  line-height: 2.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.details_box .details_text {
+  display: inline-block;
+  color: cornflowerblue;
+  line-height: 2.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.details_box .label_text_name {
+  font-weight: 600;
+  color: cornflowerblue;
+  line-height: 4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
